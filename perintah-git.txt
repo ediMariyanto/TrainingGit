@@ -15,3 +15,11 @@ git config --global user.name "nama-user"
 
 5. untuk melakukan commit
 git commit -m "message-nya"
+
+6. menampilkan apa yang berubah
+git diff
+
+7. melihhat diifference antara versi
+git diff id-versi-1..id-versi-2
+
+ 
