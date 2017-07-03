@@ -41,5 +41,12 @@ git push -u nama-project/alias branch-name
 11. cara mendownload project
 git clone url yang ada pada server
 
+12. menambahkan branch 
+git branch brance-name
+
+13. cek status branch
+git branch
+
+
  
  
