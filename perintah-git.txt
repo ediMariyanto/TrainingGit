@@ -46,9 +46,7 @@ git branch brance-name
 
 13. cek status branch
 git branch
-
-
-14. ----
-
-15 --- 
  
+14 --
+
+15 -- 
