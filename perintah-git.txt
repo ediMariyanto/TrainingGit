@@ -6,7 +6,7 @@ git init nama-folder
 2. cek status 
 git status
 
-3. untuk mendapatkan tracking dari git 
+3. untuk mendapatkan tracking (staging) dari git 
 git add nama-file / . (titik untuk mendapatkan seluruh file yang ada pada 1 folder rekursif sampai ke bawah bawahnya)
 
 4. mendapatkan username dan email
@@ -21,5 +21,18 @@ git diff
 
 7. melihhat diifference antara versi
 git diff id-versi-1..id-versi-2
+
+8. membatalkan perubahan diseluruh staging, fungsinya agar semua versi bisa di-marge pada kondisi ada yang sudah di-staging area
+git reset
+coba untuk melihat data yang sudah masuk kedalam staging pilih apa saja yang akan di commit
+
+9. menambahkan ke staging area baris perbaris
+git add nama-file -p
+* y = yes
+  n = no
+  s = split
+dll
+
+
 
  
