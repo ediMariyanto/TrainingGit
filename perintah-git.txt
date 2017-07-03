@@ -1,26 +1,26 @@
 # Daftar Perintah GIT #
 
 1. Membuat Repository baru
-git init nama-folder
+		git init nama-folder
 
 2. cek status 
-git status
+		git status
 
 3. untuk mendapatkan tracking (staging) dari git 
-git add nama-file / . (titik untuk mendapatkan seluruh file yang ada pada 1 folder rekursif sampai ke bawah bawahnya)
+		git add nama-file / . (titik untuk mendapatkan seluruh file yang ada pada 1 folder rekursif sampai ke bawah bawahnya)
 
 4. mendapatkan username dan email pada git app
-git config --global user.email "nama-email"
-git config --global user.name "nama-user"
+		git config --global user.email "nama-email"
+		git config --global user.name "nama-user"
 
 5. untuk melakukan commit terhadap file tersebut
-git commit -m "message-nya"
+		git commit -m "message-nya"
 
 6. menampilkan apa yang berubah
-git diff
+		git diff
 
 7. melihhat diifference antara versi
-git diff id-versi-1..id-versi-2
+		git diff id-versi-1..id-versi-2
 
 8. membatalkan perubahan diseluruh staging, fungsinya agar semua versi bisa di-marge pada kondisi ada yang sudah di-staging area
 git reset
@@ -48,5 +48,7 @@ git branch brance-name
 git branch
 
 
- 
+14. ----
+
+15 --- 
  
