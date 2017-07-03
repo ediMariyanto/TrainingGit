@@ -9,11 +9,11 @@ git status
 3. untuk mendapatkan tracking (staging) dari git 
 git add nama-file / . (titik untuk mendapatkan seluruh file yang ada pada 1 folder rekursif sampai ke bawah bawahnya)
 
-4. mendapatkan username dan email
+4. mendapatkan username dan email pada git app
 git config --global user.email "nama-email"
 git config --global user.name "nama-user"
 
-5. untuk melakukan commit
+5. untuk melakukan commit terhadap file tersebut
 git commit -m "message-nya"
 
 6. menampilkan apa yang berubah
