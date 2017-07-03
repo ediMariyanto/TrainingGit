@@ -34,5 +34,12 @@ git add nama-file -p
 dll
 
 
+10. cara untuk mengupload project
+git push -u nama-project/alias branch-name
+"-u berfungsi untuk default remote, karena bisa banyak remote"
 
+11. cara mendownload project
+git clone url
+
+ 
  
