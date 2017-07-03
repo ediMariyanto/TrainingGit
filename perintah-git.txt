@@ -39,7 +39,7 @@ git push -u nama-project/alias branch-name
 "-u berfungsi untuk default remote, karena bisa banyak remote"
 
 11. cara mendownload project
-git clone url
+git clone url yang ada pada server
 
  
  
