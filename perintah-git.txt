@@ -1,0 +1,4 @@
+# Daftar Perintah GIT #
+
+1. Membuat Repository baru
+git init nama-folder
