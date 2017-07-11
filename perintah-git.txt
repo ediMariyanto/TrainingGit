@@ -46,7 +46,110 @@ git branch brance-name
 
 13. cek status branch
 git branch
- 
-14 --
 
-15 -- 
+#Perintah yang sering digunakan#
+
+#Inisialisasi Direktori
+
+Langkah awal yang harus dilakukan adalah melakukan insialisasi terhadap folder yang akan menerima perintah git. Masuk ke dalam folder tersebut lalu ketikkan :
+
+$ git init
+
+Mengecek Status
+
+Untuk mengetahui status dari perubahan yang terjadi pada file yang berada pada folder maka ketikkan:
+
+$ git status
+
+Menambahkan File ke Staging Area
+
+Setiap terjadi perubahan pada file maka file tersebut berada pada working area seperti yang kita lihat pada gambar diatas. Untuk memindahkan ke staging area maka ketikan :
+
+#Add the list of files
+$ git add <list of files>
+
+#Add all files
+$ git add --all
+
+#Add all txt files in current directory
+$ git add *.txt
+
+#Add all txt files in docs directory
+$ git add docs/*.txt
+
+#Add all files in docs directory
+$ git add docs/
+
+#Add all txt files in the whole project
+$ git add "*.txt"
+
+Commit Perubahan
+
+File yang berada pada staging area agar resmi berubah maka perlu dilakukan commit terhadap file tersebut, caranya ketikkan perintah berikut ini:
+
+$ git commit -m "Tulisan Pesan Disini"
+
+Melihat Proses Perubahan
+
+Git juga memiliki perintah untuk mengecek perubahan apa saja yang telah terjadi, ketikkan perintah berikut ini:
+
+$ git log
+
+Melihat Perbedaan
+
+Melihat perbedaan data pada level unstaged.
+
+$ git diff
+
+Melihat perbedaan data pada level staged.
+
+$ git diff --staged
+
+Mengembalikan Commit
+
+Setelah melakukan commit, kita bisa juga membatalkan commit tersebut dengan menggunakan perintah:
+
+#Undo last commit, put changes into staging
+$ git reset --soft HEAD^
+
+#Change the last commit
+$ git commit --amend -m "New Message"
+
+#Undo last commit and all changes
+$ git reset --hard HEAD^
+
+#Undo last 2 commits and all changes
+$ git reset --hard HEAD^^
+
+Menambahkan Lokasi Remote
+
+Untuk menyimpan file di internet maka tambahkan perintah berikut ini:
+
+#To add new remotes
+$ git remote add <name> <address>
+
+#To remove remotes
+$ git remote rm <name>
+
+#To show remote repositories
+$ git remote -v
+
+#Example
+$ git remote add origin https://github.com/Gregg/git-real.git
+
+Lokasi remote bisa di dapat dari situs BitBucket.
+Memindahkan Data Dari Lokal Ke Remote
+
+Untuk memindahkan data dari local ke remote, gunakan perintah:
+
+#To push to remotes
+$ git push -u <name> <branch>
+
+#Example
+$ git push -u origin master
+
+Menarik Data Dari Remote Ke Lokal
+
+Untuk menarik data dari remote ke lokal, gunakan perintah:
+
+$ git pull
