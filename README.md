@@ -33,7 +33,6 @@ git add nama-file -p
   s = split
 dll
 
-
 10. cara untuk mengupload project
 git push -u nama-project/alias branch-name
 "-u berfungsi untuk default remote, karena bisa banyak remote"
@@ -47,6 +46,3 @@ git branch brance-name
 13. cek status branch
 git branch
  
-14 --
-
-15 -- 
